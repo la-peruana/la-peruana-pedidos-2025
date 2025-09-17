@@ -388,28 +388,40 @@
             </div>
 
             <!-- ROTISERÍA -->
-            <div id="rotiseria" class="products-section">
+            <div id="rotiseria" class="products-section active">
                 <h3 class="section-title">
                     <i class="fas fa-utensils" style="color: #ff6b35;"></i>
                     Rotisería
                 </h3>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Torrejas</div>
-                        <div class="product-price">$471</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-name">Torrejas de arroz</div>
+                        <div class="product-price">$1.225</div>
+                        <div class="product-unit">x 3 unidades</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('torrejas', -1)">-</button>
-                        <span class="qty-display" id="qty-torrejas">0</span>
-                        <button class="qty-btn" onclick="changeQty('torrejas', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('torrejas-de-arroz', -1)">-</button>
+                        <span class="qty-display" id="qty-torrejas-de-arroz">0</span>
+                        <button class="qty-btn" onclick="changeQty('torrejas-de-arroz', 1)">+</button>
+                    </div>
+                </div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Torrejas de acelga</div>
+                        <div class="product-price">$1.225</div>
+                        <div class="product-unit">x 3 unidades</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('torrejas-de-acelga', -1)">-</button>
+                        <span class="qty-display" id="qty-torrejas-de-acelga">0</span>
+                        <button class="qty-btn" onclick="changeQty('torrejas-de-acelga', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Sándwich Simples</div>
-                        <div class="product-price">$1.100</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$12.846</div>
+                        <div class="product-unit">bandeja x 6 un.</div>
                     </div>
                     <div class="qty-controls">
                         <button class="qty-btn" onclick="changeQty('sandwich-simples', -1)">-</button>
@@ -420,8 +432,8 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Sandwich Triples</div>
-                        <div class="product-price">$1.844</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$13588</div>
+                        <div class="product-unit">bandeja x 6 un.</div>
                     </div>
                     <div class="qty-controls">
                         <button class="qty-btn" onclick="changeQty('sandwich-triples', -1)">-</button>
@@ -431,20 +443,56 @@
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Tortilla</div>
-                        <div class="product-price">$4.782</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-name">Tortilla de papas</div>
+                        <div class="product-price">$4782</div>
+                        <div class="product-unit">porción</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('tortilla', -1)">-</button>
-                        <span class="qty-display" id="qty-tortilla">0</span>
-                        <button class="qty-btn" onclick="changeQty('tortilla', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('tortilla-de-papas', -1)">-</button>
+                        <span class="qty-display" id="qty-tortilla-de-papas">0</span>
+                        <button class="qty-btn" onclick="changeQty('tortilla-de-papas', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Hamburguesa Cheddar c/ papas</div>
-                        <div class="product-price">$9.680</div>
+                        <div class="product-name">Tortilla de acelga</div>
+                        <div class="product-price">$4863</div>
+                        <div class="product-unit">porción</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('tortilla-de-acelga', -1)">-</button>
+                        <span class="qty-display" id="qty-tortilla-de-acelga">0</span>
+                        <button class="qty-btn" onclick="changeQty('tortilla-de-acelga', 1)">+</button>
+		    </div>
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Terrina</div>
+                        <div class="product-price">$4782</div>
+                        <div class="product-unit">porción</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('terrina', -1)">-</button>
+                        <span class="qty-display" id="qty-terrina">0</span>
+                        <button class="qty-btn" onclick="changeQty('terrina', 1)">+</button>
+		    </div>		
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">papas fritas</div>
+                        <div class="product-price">$2591</div>
+                        <div class="product-unit">porción</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('papas-fritas', -1)">-</button>
+                        <span class="qty-display" id="qty-papas-fritas">0</span>
+                        <button class="qty-btn" onclick="changeQty('papas-fritas', 1)">+</button>
+		    </div>		
+		</div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Hamburguesa Cheddar c- papas pan de papa, carne doble, panceta y cebolla</div>
+                        <div class="product-price">$8298</div>
                         <div class="product-unit">por unidad</div>
                     </div>
                     <div class="qty-controls">
@@ -455,8 +503,8 @@
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Hamburguesa LP c/ papas</div>
-                        <div class="product-price">$10.785</div>
+                        <div class="product-name">Hamburguesa LP c- papas pan de papa, carne simple, lechuga, tomate, queso cheddar, bacon, cebolla</div>
+                        <div class="product-price">$7447</div>
                         <div class="product-unit">por unidad</div>
                     </div>
                     <div class="qty-controls">
@@ -468,16 +516,172 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Patamuslo</div>
-                        <div class="product-price">$5.190</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$13196</div>
+                        <div class="product-unit">por 2 un.</div>
                     </div>
                     <div class="qty-controls">
                         <button class="qty-btn" onclick="changeQty('patamuslo', -1)">-</button>
                         <span class="qty-display" id="qty-patamuslo">0</span>
                         <button class="qty-btn" onclick="changeQty('patamuslo', 1)">+</button>
                     </div>
+    		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Sándwich milanesa de pollo</div>
+                        <div class="product-price">$5637</div>
+                        <div class="product-unit">por un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Sándwich-milanesa-de-pollo', -1)">-</button>
+                        <span class="qty-display" id="qty-Sándwich-milanesa-de-pollo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Sándwich-milanesa-de-pollo', 1)">+</button>
+                    </div>
                 </div>
-            </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Sándwich milanesa de carne</div>
+                        <div class="product-price">$8176</div>
+                        <div class="product-unit">por un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Sándwich-milanesa-de-carne', -1)">-</button>
+                        <span class="qty-display" id="qty-Sándwich-milanesa-de-carne">0</span>
+                        <button class="qty-btn" onclick="changeQty('Sándwich-milanesa-de-carne', 1)">+</button>
+		    </div>
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Sándwich milanesa de carne completo</div>
+                        <div class="product-price">$9638</div>
+                        <div class="product-unit">x un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Sándwich-milanesa-de-carne-completo', -1)">-</button>
+                        <span class="qty-display" id="qty-Sándwich-milanesa-de-carne-completo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Sándwich-milanesa-de-carne-completo', 1)">+</button>
+		    </div>		
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Pebete de jamón y queso</div>
+                        <div class="product-price">$3192</div>
+                        <div class="product-unit">x un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Pebete-de-jamón-y-queso', -1)">-</button>
+                        <span class="qty-display" id="qty-Pebete-de-jamón-y-queso">0</span>
+                        <button class="qty-btn" onclick="changeQty('Pebete-de-jamón-y-queso', 1)">+</button>
+		    </div>		
+		</div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanadas de choclo</div>
+                        <div class="product-price">$6168</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-choclo', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanadas-de-choclo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-choclo', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanadas de jamón y queso</div>
+                        <div class="product-price">$4875</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-jamón-y-queso', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanadas-de-jamón-y-queso">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-jamón-y-queso', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanadas Calabresa</div>
+                        <div class="product-price">$4190</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanadas-Calabresa', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanadas-Calabresa">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanadas-Calabresa', 1)">+</button>
+                    </div>
+    		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanadas de verdura</div>
+                        <div class="product-price">$4278</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-verdura', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanadas-de-verdura">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-verdura', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanadas de carne dulce</div>
+                        <div class="product-price">$5551</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-carne-dulce', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanadas-de-carne-dulce">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-carne-dulce', 1)">+</button>
+		    </div>
+		</div>	
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanadas de carne saladas</div>
+                        <div class="product-price">$4923</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-carne-saladas', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanadas-de-carne-saladas">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-carne-saladas', 1)">+</button>
+		    </div>
+		</div>	
+  	  	<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanadas de pollo</div>
+                        <div class="product-price">$4713</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-pollo', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanadas-de-pollo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanadas-de-pollo', 1)">+</button>
+		    </div>
+		</div>	
+  	  	<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Milanesas de carne</div>
+                        <div class="product-price">$11258</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Milanesas-de-carne', -1)">-</button>
+                        <span class="qty-display" id="qty-Milanesas-de-carne">0</span>
+                        <button class="qty-btn" onclick="changeQty('Milanesas-de-carne', 1)">+</button>
+		    </div>
+		</div>	  
+	  	<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Milanesas de pollo</div>
+                        <div class="product-price">$8344</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Milanesas-de-pollo', -1)">-</button>
+                        <span class="qty-display" id="qty-Milanesas-de-pollo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Milanesas-de-pollo', 1)">+</button>
+		    </div>
+		</div>	
+ 	    </div>
 
             <!-- PANADERÍA -->
             <div id="panaderia" class="products-section">
@@ -487,52 +691,268 @@
                 </h3>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Facturas</div>
-                        <div class="product-price">$735</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-name">Facturas c-crema</div>
+                        <div class="product-price">$2177</div>
+                        <div class="product-unit">x 3 un.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('facturas', -1)">-</button>
-                        <span class="qty-display" id="qty-facturas">0</span>
-                        <button class="qty-btn" onclick="changeQty('facturas', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Facturas c-crema', -1)">-</button>
+                        <span class="qty-display" id="qty-Facturas c/crema">0</span>
+                        <button class="qty-btn" onclick="changeQty('Facturas c-crema', 1)">+</button>
                     </div>
                 </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Facturas c-crema y membrillo</div>
+                        <div class="product-price">$2613</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Facturas c-crema y membrillo', -1)">-</button>
+                        <span class="qty-display" id="qty-Facturas c-crema y membrillo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Facturas c-crema y membrillo', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Facturas c-crema y dulce de leche</div>
+                        <div class="product-price">$1960</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Facturas c-crema y dulce de leche', -1)">-</button>
+                        <span class="qty-display" id="qty-Facturas c-crema y dulce de leche">0</span>
+                        <button class="qty-btn" onclick="changeQty('Facturas c-crema y dulce de leche', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Medialunas c-dulce de leche</div>
+                        <div class="product-price">$-</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Medialunas c-dulce de leche', -1)">-</button>
+                        <span class="qty-display" id="qty-Medialunas c-dulce de leche">0</span>
+                        <button class="qty-btn" onclick="changeQty('Medialunas c-dulce de leche', 1)">+</button>
+		    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Medialunas dulces</div>
+                        <div class="product-price">$-</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Medialunas dulces', -1)">-</button>
+                        <span class="qty-display" id="qty-Medialunas dulces">0</span>
+                        <button class="qty-btn" onclick="changeQty('Medialunas dulces', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Vigilantes de batata</div>
+                        <div class="product-price">$2504</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Vigilantes de batata', -1)">-</button>
+                        <span class="qty-display" id="qty-Vigilantes de batata">0</span>
+                        <button class="qty-btn" onclick="changeQty('Vigilantes de batata', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Vigilantes de membrillo</div>
+                        <div class="product-price">$2308</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Vigilantes de membrillo', -1)">-</button>
+                        <span class="qty-display" id="qty-Vigilantes de membrillo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Vigilantes de membrillo', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Bollitos c-crema</div>
+                        <div class="product-price">$2068</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Bollitos c-crema', -1)">-</button>
+                        <span class="qty-display" id="qty-Bollitos c-crema">0</span>
+                        <button class="qty-btn" onclick="changeQty('Bollitos c-crema', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Bollitos de dulce de leche</div>
+                        <div class="product-price">$1960</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Bollitos-de-dulce-de-leche', -1)">-</button>
+                        <span class="qty-display" id="qty-Bollitos-de-dulce-de-leche">0</span>
+                        <button class="qty-btn" onclick="changeQty('Bollitos-de-dulce-de-leche', 1)">+</button>
+                    </div>                
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Empanaditas de dulce de leche</div>
+                        <div class="product-price">$1415</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Empanaditas-de-dulce-de-leche', -1)">-</button>
+                        <span class="qty-display" id="qty-Empanaditas-de-dulce-de-leche">0</span>
+                        <button class="qty-btn" onclick="changeQty('Empanaditas-de-dulce-de-leche', 1)">+</button>
+                    </div>                
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Pirulines</div>
+                        <div class="product-price">$2177</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Pirulines', -1)">-</button>
+                        <span class="qty-display" id="qty-Pirulines">0</span>
+                        <button class="qty-btn" onclick="changeQty('Pirulines', 1)">+</button>
+                    </div>                
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Borrachitos</div>
+                        <div class="product-price">$1960</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Borrachitos', -1)">-</button>
+                        <span class="qty-display" id="qty-Borrachitos">0</span>
+                        <button class="qty-btn" onclick="changeQty('Borrachitos', 1)">+</button>
+                    </div>                
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Medialunas Marplatenses</div>
+                        <div class="product-price">$1933</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Medialunas-Marplatenses', -1)">-</button>
+                        <span class="qty-display" id="qty-Medialunas-Marplatenses">0</span>
+                        <button class="qty-btn" onclick="changeQty('Medialunas-Marplatenses', 1)">+</button>
+                    </div>                
+		</div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Especiales</div>
-                        <div class="product-price">$614</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$2363</div>
+                        <div class="product-unit">250 grs.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('especiales', -1)">-</button>
-                        <span class="qty-display" id="qty-especiales">0</span>
-                        <button class="qty-btn" onclick="changeQty('especiales', 1)">+</button>
-                    </div>
-                </div>
+                        <button class="qty-btn" onclick="changeQty('Especiales', -1)">-</button>
+                        <span class="qty-display" id="qty-Especiales">0</span>
+                        <button class="qty-btn" onclick="changeQty('Especiales', 1)">+</button>
+                    </div>                
+		</div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Francés</div>
-                        <div class="product-price">$222</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-name">Pan francés</div>
+                        <div class="product-price">$740</div>
+                        <div class="product-unit">250 grs.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('frances', -1)">-</button>
-                        <span class="qty-display" id="qty-frances">0</span>
-                        <button class="qty-btn" onclick="changeQty('frances', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Pan-francés', -1)">-</button>
+                        <span class="qty-display" id="qty-Pan-francés">0</span>
+                        <button class="qty-btn" onclick="changeQty('Pan-francés', 1)">+</button>
+                    </div>                
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Pan Rondín</div>
+                        <div class="product-price">$715</div>
+                        <div class="product-unit">250 grs.</div>
                     </div>
-                </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Pan-Rondín', -1)">-</button>
+                        <span class="qty-display" id="qty-Pan-Rondín">0</span>
+                        <button class="qty-btn" onclick="changeQty('Pan-Rondín', 1)">+</button>                
+		    </div>   
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Galleta de campo</div>
+                        <div class="product-price">$840</div>
+                        <div class="product-unit">250 grs.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Galleta-de-campo', -1)">-</button>
+                        <span class="qty-display" id="qty-Galleta-de-campo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Galleta-de-campo', 1)">+</button>                
+		    </div>   
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Galleta hojaldrada</div>
+                        <div class="product-price">$1018</div>
+                        <div class="product-unit">250 grs.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Galleta-hojaldrada', -1)">-</button>
+                        <span class="qty-display" id="qty-Galleta-hojaldrada">0</span>
+                        <button class="qty-btn" onclick="changeQty('Galleta-hojaldrada', 1)">+</button>                
+		    </div>   
+		</div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Suizos</div>
-                        <div class="product-price">$133</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$3319</div>
+                        <div class="product-unit">250 grs.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('suizos', -1)">-</button>
-                        <span class="qty-display" id="qty-suizos">0</span>
-                        <button class="qty-btn" onclick="changeQty('suizos', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Suizos', -1)">-</button>
+                        <span class="qty-display" id="qty-Suizos">0</span>
+                        <button class="qty-btn" onclick="changeQty('Suizos', 1)">+</button>
+		    </div>   
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Medialunas saladas grandes</div>
+                        <div class="product-price">$3281</div>
+                        <div class="product-unit">250 grs.</div>
                     </div>
-                </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Medialunas-saladas-grandes', -1)">-</button>
+                        <span class="qty-display" id="qty-Medialunas-saladas-grandes">0</span>
+                        <button class="qty-btn" onclick="changeQty('Medialunas-saladas-grandes', 1)">+</button>
+                    </div>
+		</div>   
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Medialunas saladas chicas</div>
+                        <div class="product-price">$4024</div>
+                        <div class="product-unit">250 grs.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Medialunas-saladas-chicas', -1)">-</button>
+                        <span class="qty-display" id="qty-Medialunas-saladas-chicas">0</span>
+                        <button class="qty-btn" onclick="changeQty('Medialunas-saladas-chicas', 1)">+</button>
+                    </div>
+		</div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Croissant</div>
+                        <div class="product-price">$2464</div>
+                        <div class="product-unit">x un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Croissant', -1)">-</button>
+                        <span class="qty-display" id="qty-Croissant">0</span>
+                        <button class="qty-btn" onclick="changeQty('Croissant', 1)">+</button>
+		    </div>
+		</div>
             </div>
 
             <!-- PASTELERÍA -->
@@ -543,69 +963,81 @@
                 </h3>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Cheese cake</div>
-                        <div class="product-price">$6.362</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-name">Cheese cake individual</div>
+                        <div class="product-price">$6362</div>
+                        <div class="product-unit">x un.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('cheese-cake', -1)">-</button>
-                        <span class="qty-display" id="qty-cheese-cake">0</span>
-                        <button class="qty-btn" onclick="changeQty('cheese-cake', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Cheese-cake-individual', -1)">-</button>
+                        <span class="qty-display" id="qty-Cheese-cake-individual">0</span>
+                        <button class="qty-btn" onclick="changeQty('Cheese-cake-individual', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Mini bombón</div>
-                        <div class="product-price">$1.019</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$1019</div>
+                        <div class="product-unit">x un.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('mini-bombon', -1)">-</button>
-                        <span class="qty-display" id="qty-mini-bombon">0</span>
-                        <button class="qty-btn" onclick="changeQty('mini-bombon', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Mini-bombon', -1)">-</button>
+                        <span class="qty-display" id="qty-Mini-bombon">0</span>
+                        <button class="qty-btn" onclick="changeQty('Mini-bombon', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Mini lemon pie</div>
-                        <div class="product-price">$1.019</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$1019</div>
+                        <div class="product-unit">x un.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('mini-lemon-pie', -1)">-</button>
-                        <span class="qty-display" id="qty-mini-lemon-pie">0</span>
-                        <button class="qty-btn" onclick="changeQty('mini-lemon-pie', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Mini-lemon-pie', -1)">-</button>
+                        <span class="qty-display" id="qty-Mini-lemon-pie">0</span>
+                        <button class="qty-btn" onclick="changeQty('Mini-lemon-pie', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Mini frutal</div>
-                        <div class="product-price">$1.551</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$1551</div>
+                        <div class="product-unit">x un.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('mini-frutal', -1)">-</button>
-                        <span class="qty-display" id="qty-mini-frutal">0</span>
-                        <button class="qty-btn" onclick="changeQty('mini-frutal', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Mini-frutal', -1)">-</button>
+                        <span class="qty-display" id="qty-Mini-frutal">0</span>
+                        <button class="qty-btn" onclick="changeQty('Mini-frutal', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Lingote de durazno o frutilla</div>
-                        <div class="product-price">$2.038</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-name">Lingote de durazno</div>
+                        <div class="product-price">$2038</div>
+                        <div class="product-unit">x un.</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('lingote', -1)">-</button>
+                        <button class="qty-btn" onclick="changeQty('Lingote-de-durazgo', -1)">-</button>
                         <span class="qty-display" id="qty-lingote">0</span>
-                        <button class="qty-btn" onclick="changeQty('lingote', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Lingote-de-durazgo', 1)">+</button>
+                    </div>
+                </div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Lingote de frutilla</div>
+                        <div class="product-price">$2038</div>
+                        <div class="product-unit">x un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Lingote-de-frutilla', -1)">-</button>
+                        <span class="qty-display" id="qty-lingote">0</span>
+                        <button class="qty-btn" onclick="changeQty('Lingote-de-frutilla', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Red velvet</div>
-                        <div class="product-price">$1.698</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$1699</div>
+                        <div class="product-unit">x un.</div>
                     </div>
                     <div class="qty-controls">
                         <button class="qty-btn" onclick="changeQty('red-velvet', -1)">-</button>
@@ -616,15 +1048,99 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Tiramisú</div>
-                        <div class="product-price">$3.057</div>
-                        <div class="product-unit">por unidad</div>
+                        <div class="product-price">$3057</div>
+                        <div class="product-unit">x un.</div>
                     </div>
                     <div class="qty-controls">
                         <button class="qty-btn" onclick="changeQty('tiramisu', -1)">-</button>
                         <span class="qty-display" id="qty-tiramisu">0</span>
                         <button class="qty-btn" onclick="changeQty('tiramisu', 1)">+</button>
                     </div>
+		</div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Masas finas</div>
+                        <div class="product-price">$7427</div>
+                        <div class="product-unit">x 7 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Masas-finas', -1)">-</button>
+                        <span class="qty-display" id="qty-Masas-finas">0</span>
+                        <button class="qty-btn" onclick="changeQty('Masas-finas', 1)">+</button>
+                    </div>
                 </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Alfajores de maicena grandes</div>
+                        <div class="product-price">$1362</div>
+                        <div class="product-unit">x 2 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-maicena-grandes', -1)">-</button>
+                        <span class="qty-display" id="qty-Alfajores-de-maicena-grandes">0</span>
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-maicena-grandes', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Alfajores de maicena medianos</div>
+                        <div class="product-price">$1424</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('alfajores-de-maicena-medianos', -1)">-</button>
+                        <span class="qty-display" id="qty-alfajores-de-maicena-medianos">0</span>
+                        <button class="qty-btn" onclick="changeQty('alfajores-de-maicena-medianos', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Alfajores de maicena mini</div>
+                        <div class="product-price">$1485</div>
+                        <div class="product-unit">x 5 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-maicena-mini', -1)">-</button>
+                        <span class="qty-display" id="qty-Alfajores-de-maicena-mini">0</span>
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-maicena-mini', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Alfajores de chocolate grandes</div>
+                        <div class="product-price">$1820</div>
+                        <div class="product-unit">x 2 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-chocolate-grandes', -1)">-</button>
+                        <span class="qty-display" id="qty-Alfajores-de-chocolate-grandes">0</span>
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-chocolate-grandes', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Alfajores de chocolate medianos</div>
+                        <div class="product-price">$1903</div>
+                        <div class="product-unit">x 3 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-chocolate-medianos', -1)">-</button>
+                        <span class="qty-display" id="qty-Alfajores-de-chocolate-medianos">0</span>
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-chocolate-medianos', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Alfajores de chocolate mini</div>
+                        <div class="product-price">$1986</div>
+                        <div class="product-unit">x 5 un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-chocolate-mini', -1)">-</button>
+                        <span class="qty-display" id="qty-Alfajores-de-chocolate-mini">0</span>
+                        <button class="qty-btn" onclick="changeQty('Alfajores-de-chocolate-mini', 1)">+</button>
+                    </div>
+		</div>
             </div>
 
             <!-- CARNICERÍA -->
@@ -636,52 +1152,101 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Milanesa de Carne</div>
-                        <div class="product-price">$13.500</div>
+                        <div class="product-price">$13050</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('milanesa-carne', -1)">-</button>
-                        <span class="qty-display" id="qty-milanesa-carne">0</span>
-                        <button class="qty-btn" onclick="changeQty('milanesa-carne', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Milanesa-carne', -1)">-</button>
+                        <span class="qty-display" id="qty-Milanesa-carne">0</span>
+                        <button class="qty-btn" onclick="changeQty('Milanesa-carne', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Milanesa de Pollo</div>
-                        <div class="product-price">$12.000</div>
+                        <div class="product-price">$12000</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('milanesa-pollo', -1)">-</button>
-                        <span class="qty-display" id="qty-milanesa-pollo">0</span>
-                        <button class="qty-btn" onclick="changeQty('milanesa-pollo', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Milanesa-pollo', -1)">-</button>
+                        <span class="qty-display" id="qty-Milanesa-pollo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Milanesa-pollo', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Filet de Pechuga</div>
-                        <div class="product-price">$15.500</div>
+                        <div class="product-price">$15500</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('filet-pechuga', -1)">-</button>
-                        <span class="qty-display" id="qty-filet-pechuga">0</span>
-                        <button class="qty-btn" onclick="changeQty('filet-pechuga', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Filet-pechuga', -1)">-</button>
+                        <span class="qty-display" id="qty-Filet-pechuga">0</span>
+                        <button class="qty-btn" onclick="changeQty('Filet-pechuga', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Costeletas Cerdo</div>
-                        <div class="product-price">$8.400</div>
+                        <div class="product-name">Costeletas de Cerdo</div>
+                        <div class="product-price">$8.391</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('costeletas-cerdo', -1)">-</button>
-                        <span class="qty-display" id="qty-costeletas-cerdo">0</span>
-                        <button class="qty-btn" onclick="changeQty('costeletas-cerdo', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Costeletas-de-cerdo', -1)">-</button>
+                        <span class="qty-display" id="qty-Costeletas-de-cerdo">0</span>
+                        <button class="qty-btn" onclick="changeQty('Costeletas-de-cerdo', 1)">+</button>
+                    </div>
+                </div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Hamburguesas de carne común</div>
+                        <div class="product-price">$14384</div>
+                        <div class="product-unit">por kg</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Hamburguesas-de-carne-común', -1)">-</button>
+                        <span class="qty-display" id="qty-Hamburguesas-de-carne-común">0</span>
+                        <button class="qty-btn" onclick="changeQty('Hamburguesas-de-carne-común', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Hamburguesas de carne especial</div>
+                        <div class="product-price">$17236</div>
+                        <div class="product-unit">por kg</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Hamburguesas-de-carne-especial', -1)">-</button>
+                        <span class="qty-display" id="qty-Hamburguesas-de-carne-especial">0</span>
+                        <button class="qty-btn" onclick="changeQty('Hamburguesas-de-carne-especial', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Carne picada común</div>
+                        <div class="product-price">$8990</div>
+                        <div class="product-unit">por kg</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('carne-picada-común', -1)">-</button>
+                        <span class="qty-display" id="qty-carne-picada-común">0</span>
+                        <button class="qty-btn" onclick="changeQty('carne-picada-común', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Carne picada especial</div>
+                        <div class="product-price">$14260</div>
+                        <div class="product-unit">por kg</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('carne-picada-especial', -1)">-</button>
+                        <span class="qty-display" id="qty-carne-picada-especial">0</span>
+                        <button class="qty-btn" onclick="changeQty('carne-picada-especial', 1)">+</button>
                     </div>
                 </div>
             </div>
+
 	    <!-- VERDULERÍA -->
             <div id="verduleria" class="products-section">
                 <h3 class="section-title">
@@ -691,7 +1256,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Zanahorias</div>
-                        <div class="product-price">$471</div>
+                        <div class="product-price">$-</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
@@ -703,7 +1268,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Tomates redondos</div>
-                        <div class="product-price">$1.100</div>
+                        <div class="product-price">$-</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
@@ -715,7 +1280,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Manzanas rojas</div>
-                        <div class="product-price">$4.782</div>
+                        <div class="product-price">$-</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
@@ -727,7 +1292,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Bananas</div>
-                        <div class="product-price">$10.785</div>
+                        <div class="product-price">$-</div>
                         <div class="product-unit">por kg</div>
                     </div>
                     <div class="qty-controls">
@@ -746,55 +1311,103 @@
                 </h3>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Bandeja Picada de fiambres surtidos x 800 grs</div>
+                        <div class="product-name">Bandeja Picada de fiambres surtidos x 800 grs (queso barra, bondiola, lomito, mortadela, jamón cocido, salame baston, pickles y aceitunas)</div>
                         <div class="product-price">$19.600</div>
                         <div class="product-unit">por bandeja</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('picada-fiambres', -1)">-</button>
-                        <span class="qty-display" id="qty-picada-fiambres">0</span>
-                        <button class="qty-btn" onclick="changeQty('picada-fiambres', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Picada-fiambres', -1)">-</button>
+                        <span class="qty-display" id="qty-Picada-fiambres">0</span>
+                        <button class="qty-btn" onclick="changeQty('Picada-fiambres', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Bandeja picada de quesos surtidos x 700 grs</div>
-                        <div class="product-price">$14.900</div>
+                        <div class="product-name">Bandeja picada de quesos surtidos x 500 grs</div>
+                        <div class="product-price">$7435</div>
                         <div class="product-unit">por bandeja</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('picada-quesos', -1)">-</button>
-                        <span class="qty-display" id="qty-picada-quesos">0</span>
-                        <button class="qty-btn" onclick="changeQty('picada-quesos', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Picada-quesos', -1)">-</button>
+                        <span class="qty-display" id="qty-Picada-quesos">0</span>
+                        <button class="qty-btn" onclick="changeQty('Picada-quesos', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Bandeja Picada Lario x 700 grs</div>
-                        <div class="product-price">$15.680</div>
+                        <div class="product-price">$15680</div>
                         <div class="product-unit">por bandeja</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('picada-lario', -1)">-</button>
-                        <span class="qty-display" id="qty-picada-lario">0</span>
-                        <button class="qty-btn" onclick="changeQty('picada-lario', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Picada-Lario', -1)">-</button>
+                        <span class="qty-display" id="qty-Picada-Lario">0</span>
+                        <button class="qty-btn" onclick="changeQty('Picada-Lario', 1)">+</button>
                     </div>
                 </div>
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Bandeja Picada Paladini x 700 grs</div>
-                        <div class="product-price">$17.641</div>
+                        <div class="product-price">$-</div>
                         <div class="product-unit">por bandeja</div>
                     </div>
                     <div class="qty-controls">
-                        <button class="qty-btn" onclick="changeQty('picada-paladini', -1)">-</button>
-                        <span class="qty-display" id="qty-picada-paladini">0</span>
-                        <button class="qty-btn" onclick="changeQty('picada-paladini', 1)">+</button>
+                        <button class="qty-btn" onclick="changeQty('Picada-Paladini', -1)">-</button>
+                        <span class="qty-display" id="qty-Picada-Paladini">0</span>
+                        <button class="qty-btn" onclick="changeQty('Picada-Paladini', 1)">+</button>
                     </div>
                 </div>
-            </div>
-
-            <!-- ALMACÉN -->
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Queso cremoso María Luisa</div>
+                        <div class="product-price">$3955</div>
+                        <div class="product-unit">x 500 grs</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Queso-cremoso-María-Luisa', -1)">-</button>
+                        <span class="qty-display" id="qty-Queso-cremoso-María-Luisa">0</span>
+                        <button class="qty-btn" onclick="changeQty('Queso-cremoso-María-Luisa', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Queso barra María Luisa</div>
+                        <div class="product-price">$4984</div>
+                        <div class="product-unit">x 500 grs</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Queso-barra-María-Luisa', -1)">-</button>
+                        <span class="qty-display" id="qty-Queso-barra-María-Luisa">0</span>
+                        <button class="qty-btn" onclick="changeQty('Queso-barra-María-Luisa', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Jamón cocido Lario feteado</div>
+                        <div class="product-price">$11318</div>
+                        <div class="product-unit">x 500 grs</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Jamón-cocido-Lario-feteado', -1)">-</button>
+                        <span class="qty-display" id="qty-Jamón-cocido-Lario-feteado">0</span>
+                        <button class="qty-btn" onclick="changeQty('Jamón-cocido-Lario-feteado', 1)">+</button>
+ 		   </div>
+		</div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Mortadela Paladini x 300 grs</div>
+                        <div class="product-price">$5153</div>
+                        <div class="product-unit">x 300 grs</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Mortadela-Paladini', -1)">-</button>
+                        <span class="qty-display" id="qty-Mortadela-Paladini">0</span>
+                        <button class="qty-btn" onclick="changeQty('Mortadela-Paladini', 1)">+</button>
+		    </div>
+	   	</div>
+	    </div>
+        
+	    <!-- ALMACÉN -->
             <div id="almacen" class="products-section">
                 <h3 class="section-title">
                     <i class="fas fa-boxes" style="color: #6c757d;"></i>
@@ -812,6 +1425,138 @@
                         <button class="qty-btn" onclick="changeQty('pate-foie', 1)">+</button>
                     </div>
                 </div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Puré de tomate Arcor</div>
+                        <div class="product-price">$928</div>
+                        <div class="product-unit">x 520 grs</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Puré-de-tomate-Arcor', -1)">-</button>
+                        <span class="qty-display" id="qty-Puré-de-tomate-Arcor">0</span>
+                        <button class="qty-btn" onclick="changeQty('Puré-de-tomate-Arcor', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Arroz Gallo oro</div>
+                        <div class="product-price">$2909</div>
+                        <div class="product-unit">x 1 Kg</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Arroz-Gallo-oro', -1)">-</button>
+                        <span class="qty-display" id="qty-Arroz-Gallo-oro">0</span>
+                        <button class="qty-btn" onclick="changeQty('Arroz-Gallo-oro', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Fideos tallarín Matarazo</div>
+                        <div class="product-price">$1855</div>
+                        <div class="product-unit">x 500 grs</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('fideos-tallarín-Matarazo', -1)">-</button>
+                        <span class="qty-display" id="qty-fideos-tallarín-Matarazo">0</span>
+                        <button class="qty-btn" onclick="changeQty('fideos-tallarín-Matarazo', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Galletitas Surtido Bagley</div>
+                        <div class="product-price">$3560</div>
+                        <div class="product-unit">x un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Galletitas-Surtido-Bagley', -1)">-</button>
+                        <span class="qty-display" id="qty-Galletitas-Surtido-Bagley">0</span>
+                        <button class="qty-btn" onclick="changeQty('Galletitas-Surtido-Bagley', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Yerba Sinceridad</div>
+                        <div class="product-price">$3931</div>
+                        <div class="product-unit">x 1 Kg</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Yerba-Sinceridad', -1)">-</button>
+                        <span class="qty-display" id="qty-Yerba-Sinceridad">0</span>
+                        <button class="qty-btn" onclick="changeQty('Yerba-Sinceridad', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Aceite Natura 900ml</div>
+                        <div class="product-price">$3978</div>
+                        <div class="product-unit">x un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Aceite-Natura', -1)">-</button>
+                        <span class="qty-display" id="qty-Aceite-Natura">0</span>
+                        <button class="qty-btn" onclick="changeQty('Aceite-Natura', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Azucar Ledesma</div>
+                        <div class="product-price">$1648</div>
+                        <div class="product-unit">x 1 Kg</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Azucar-Ledesma', -1)">-</button>
+                        <span class="qty-display" id="qty-Azucar-Ledesma">0</span>
+                        <button class="qty-btn" onclick="changeQty('Azucar-Ledesma', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Celusal sal fina</div>
+                        <div class="product-price">$1368</div>
+                        <div class="product-unit">x 500 grs</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Celusal-sal-fina', -1)">-</button>
+                        <span class="qty-display" id="qty-Celusal-sal-fina">0</span>
+                        <button class="qty-btn" onclick="changeQty('Celusal-sal-fina', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Jabón liquido p-diluir ALA ropa DP</div>
+                        <div class="product-price">$1540</div>
+                        <div class="product-unit">x 150 ml</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Jabón-liquido-p-diluir-ALA', -1)">-</button>
+                        <span class="qty-display" id="qty-Jabón-liquido-p-diluir-ALA">0</span>
+                        <button class="qty-btn" onclick="changeQty('Jabón-liquido-p-diluir-ALA', 1)">+</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Suavizante Vivere clasico</div>
+                        <div class="product-price">$3156</div>
+                        <div class="product-unit">x 900 ml</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('suavizante-Vivere-clasico', -1)">-</button>
+                        <span class="qty-display" id="qty-suavizante-Vivere-clasico">0</span>
+                        <button class="qty-btn" onclick="changeQty('suavizante-Vivere-clasico', 1)">+</button>
+                    </div>
+                </div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Papel higienico Felpita 4x30 h-simple</div>
+                        <div class="product-price">$1820</div>
+                        <div class="product-unit">x un.</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Papel-higienico-Felpita', -1)">-</button>
+                        <span class="qty-display" id="qty-Papel-higienico-Felpita">0</span>
+                        <button class="qty-btn" onclick="changeQty('Papel-higienico-Felpita', 1)">+</button>            
+		    </div>
+  	        </div>
             </div>
 
             <!-- BEBIDAS -->
@@ -823,7 +1568,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Coca Cola 1.5L</div>
-                        <div class="product-price">$3.810</div>
+                        <div class="product-price">$3992</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -835,7 +1580,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Coca Cola 2.5L</div>
-                        <div class="product-price">$4.999</div>
+                        <div class="product-price">$5670</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -846,8 +1591,8 @@
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Agua saborizadas Levité x1.5L</div>
-                        <div class="product-price">$1.460</div>
+                        <div class="product-name">Agua saborizada Levité x1.5L</div>
+                        <div class="product-price">$2043</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -859,7 +1604,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Pritty Limón 2.25L</div>
-                        <div class="product-price">$1.910</div>
+                        <div class="product-price">$2030</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -871,7 +1616,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Pepsi 3L</div>
-                        <div class="product-price">$2.987</div>
+                        <div class="product-price">$2987</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -883,7 +1628,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Vino Otro Loco Más</div>
-                        <div class="product-price">$4.736</div>
+                        <div class="product-price">$4736</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -895,7 +1640,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Vino Finjamos Demencia</div>
-                        <div class="product-price">$4.784</div>
+                        <div class="product-price">$4784</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -907,7 +1652,7 @@
                 <div class="product-item">
                     <div class="product-info">
                         <div class="product-name">Vino Hormiga Negra</div>
-                        <div class="product-price">$3.394</div>
+                        <div class="product-price">$3394</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -918,8 +1663,8 @@
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Cerveza Corona 330CC</div>
-                        <div class="product-price">$3.230</div>
+                        <div class="product-name">Cerveza Corona 330cc</div>
+                        <div class="product-price">$3230</div>
                         <div class="product-unit">por botella</div>
                     </div>
                     <div class="qty-controls">
@@ -930,8 +1675,8 @@
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Cerveza en lata Quilmes 473CC</div>
-                        <div class="product-price">$1.258</div>
+                        <div class="product-name">Cerveza en lata Quilmes 473cc</div>
+                        <div class="product-price">$1900</div>
                         <div class="product-unit">por lata</div>
                     </div>
                     <div class="qty-controls">
@@ -942,8 +1687,8 @@
                 </div>
                 <div class="product-item">
                     <div class="product-info">
-                        <div class="product-name">Cerveza en lata Budweiser 473CC</div>
-                        <div class="product-price">$1.545</div>
+                        <div class="product-name">Cerveza en lata Budweiser 473cc</div>
+                        <div class="product-price">$1545</div>
                         <div class="product-unit">por lata</div>
                     </div>
                     <div class="qty-controls">
@@ -952,9 +1697,21 @@
                         <button class="qty-btn" onclick="changeQty('cerveza-budweiser', 1)">+</button>
                     </div>
                 </div>
+		<div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">Vino Santa Julia Chenin dulce</div>
+                        <div class="product-price">$8233</div>
+                        <div class="product-unit">por lata</div>
+                    </div>
+                    <div class="qty-controls">
+                        <button class="qty-btn" onclick="changeQty('Vino-Santa-Julia-chenin-dulce', -1)">-</button>
+                        <span class="qty-display" id="qty-Vino-Santa-Julia-chenin-dulce">0</span>
+                        <button class="qty-btn" onclick="changeQty('Vino-Santa-Julia-chenin-dulce', 1)">+</button>            
+		           </div>
+  	           </div>
             </div>
-
-        </div> <!-- fin de main-content -->
+	
+	</div> <!-- fin de main-content -->
 
     </div> <!-- fin de container -->
 
